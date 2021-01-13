@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* repeated */
+.container{
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+body{
+  background-color:  #dadada;
+  font-family: Arial;
+}
+
+/* header */
+.banner{
+  height: 70px;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.scritta{
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.logo{
+  vertical-align: middle;
+}
+/* fine header */
+
+/* main bottons */
+.top{
+  padding: 0 90px;
+  line-height: 50px;
+  border-bottom: 2px solid #dadada;
+}
+
+.click{
+  width: 100px;
+  height: 33px;
+  background-color: white;
+  border-radius: 10px;
+  vertical-align: baseline;
+  color: #dadada;
+
+}
+
+.blue{
+  background-color: #379afa;
+  color: white;
+}
+
+/* main */
+h3::before{
+  content: "\25be";
+}
+
+h3{
+  font-weight: 900;
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+li{
+  list-style: none;
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+
+.check{
+  border: 1px solid green;
+  border-radius: 50%;
+  padding: 0 2px;
+  color: green;
+  margin-top: 5px;
+}
+
+.x{
+  border: 1px solid red;
+  border-radius: 50%;
+  padding: 0 2px;
+  color: red;
+  margin-top: 5px;
+}
+
+.editorial{
+  border-radius: 8px;
+  background-color: #379afa;
+  padding: 2px;
+  color: white;
+  font-size: 18px;
+}
+
+.q1{
+  border-radius: 8px;
+  background-color: #fa82fa;
+  padding: 2px;
+  color: white;
+  font-size: 18px;
+}
+
+.recruiting{
+  border-radius: 8px;
+  background-color: #75e73c;
+  padding: 2px;
+  color: white;
+  font-size: 18px;
+}
+
+.website{
+  border-radius: 8px;
+  background-color:  #f33323;
+  padding: 2px;
+  color: white;
+  font-size: 18px;
+}
+
+.last{
+ padding-bottom: 40px;
+}

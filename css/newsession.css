@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 70%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+body{
+  background-color:  #dadada;
+  font-family: Arial;
+}
+
+/* header */
+.banner{
+  height: 70px;
+  margin-bottom: 40px;
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.scritta{
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.logo{
+  vertical-align: middle;
+}
+/* fine header */
+h1{
+  padding-left: 35%;
+  padding-top: 20px;
+}
+
+.lost{
+  height: 500px;
+  padding-left: 30%;
+}
