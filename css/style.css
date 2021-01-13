@@ -124,3 +124,18 @@ li{
 .last{
  padding-bottom: 40px;
 }
+
+/* footer */
+form{
+  border-top: 2px solid #dadada;
+  padding: 20px 100px;
+}
+
+.submit{
+  background-color: #379afa;
+  color: white;
+}
+
+.mail{
+  margin-right: 5px;
+}
